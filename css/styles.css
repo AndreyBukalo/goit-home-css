@@ -7,42 +7,38 @@ li {
   list-style: none;
 }
 body {
+  font-family: Roboto; sans-serif; 
+  letter-spacing: 0.02em;
   background-color: #fff;
 }
 .title {
   font-family: Roboto;
-  font-style: normal;
   font-weight: bold;
   color: var(--second-text-color);
 }
 .text {
   font-family: Roboto;
-  font-style: normal;
-  font-weight: normal;
   color: var(--main-text-color);
 }
 /* Шапка и навигация  */
 .page-header,
 .logo,
 .link {
-  font-family: Roboto;
-  font-style: normal;
+   font-family: Roboto;
   font-weight: 500;
   font-size: 14px;
-  line-height: 16px;
-  letter-spacing: 0.02em;
+  line-height: 1.14;
+  
   color: var(--second-text-color);
 
   text-decoration: none;
 }
 .link-studio {
   text-decoration: none;
-  font-family: Roboto;
-  font-style: normal;
   font-weight: 500;
   font-size: 14px;
-  line-height: 16px;
-  letter-spacing: 0.02em;
+  line-height: 1.14;
+ 
   color: var(--accent);
 }
 
@@ -52,51 +48,46 @@ body {
 }
 .page-header .logo {
   font-family: Raleway;
-  font-style: normal;
   font-weight: bold;
   font-size: 26px;
-  line-height: 31px;
+  line-height: 1.2;
   letter-spacing: 0.03em;
   color: var(--second-text-color);
 }
 .page-header .text {
   font-family: Raleway;
-  font-style: normal;
   font-weight: bold;
   font-size: 26px;
-  line-height: 31px;
+  line-height: 1.2;
   letter-spacing: 0.03em;
   color: var(--accent);
   text-decoration: none;
 }
 .nav-contacts .mail {
-  text-decoration: none;
   font-family: Roboto;
-  font-style: normal;
-  font-weight: 500;
+  text-decoration: none;
+ font-weight: 500;
   font-size: 14px;
-  line-height: 16px;
-  letter-spacing: 0.02em;
+  line-height: 1.14;
   color: var(--accent);
 }
 .nav-contacts .tel {
+  font-family: Roboto;
   color: var(--main-text-color);
   text-decoration: none;
-  font-family: Roboto;
-  font-style: normal;
   font-weight: 500;
   font-size: 14px;
-  line-height: 16px;
-  letter-spacing: 0.02em;
+  line-height: 1.14;
+
 }
 /* Герой */
 .hero,
 .title-hero {
-  font-family: Roboto;
-  font-style: normal;
+  
+  
   font-weight: 900;
   font-size: 44px;
-  line-height: 60px;
+  line-height: 1.36;
   text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
@@ -104,11 +95,11 @@ body {
   background-color: #2f303a;
 }
 .hero .btn {
-  font-family: Roboto;
-  font-style: normal;
+  
+  
   font-weight: bold;
   font-size: 16px;
-  line-height: 30px;
+  line-height: 1.80;
   width: 200px;
   height: 50px;
   left: 700px;
@@ -124,31 +115,24 @@ body {
 }
 .benefits .title {
   list-style: none;
-  font-family: Roboto;
-  font-style: normal;
   font-weight: bold;
   font-size: 14px;
-  line-height: 16px;
+  line-height: 1.14;
   letter-spacing: 0.03em;
   text-transform: uppercase;
 }
 
 .benefits .text {
   list-style: none;
-  font-family: Roboto;
-  font-style: normal;
-  font-weight: normal;
   font-size: 14px;
-  line-height: 24px;
+  line-height: 1.70;
   letter-spacing: 0.03em;
 }
 /* Чем мы занимаемся  */
 .about .title {
-  font-family: Roboto;
-  font-style: normal;
   font-weight: bold;
   font-size: 36px;
-  line-height: 42px;
+  line-height: 1.16;
   text-align: center;
   letter-spacing: 0.03em;
 }
@@ -158,28 +142,23 @@ body {
 /* Наша команда */
 .team .title-team {
   background-color: #f5f4fa;
-  font-family: Roboto;
-  font-style: normal;
+  
+  
   font-weight: bold;
   font-size: 36px;
-  line-height: 42px;
+  line-height: 1.16;
   text-align: center;
   letter-spacing: 0.03em;
 }
 .team .title {
-  font-family: Roboto;
-  font-style: normal;
   font-weight: 700;
   font-size: 16px;
-  line-height: 19px;
+  line-height: 1.18;
   letter-spacing: 0.03em;
 }
 .team .text {
-  font-family: Roboto;
-  font-style: normal;
-  font-weight: normal;
   font-size: 16px;
-  line-height: 19px;
+  line-height: 1.18;
   letter-spacing: 0.03em;
 }
 .footer {
@@ -187,30 +166,28 @@ body {
 }
 .footer .logo {
   font-family: Raleway;
-  font-style: normal;
+  
   font-weight: bold;
   font-size: 26px;
-  line-height: 31px;
+  line-height: 1.19;
   letter-spacing: 0.03em;
   color: #fff;
 }
 .footer .text {
   font-family: Raleway;
-  font-style: normal;
+  
   font-weight: bold;
   font-size: 26px;
-  line-height: 31px;
+  line-height: 1.19;
   letter-spacing: 0.03em;
   color: var(--accent);
   text-decoration: none;
 }
 
-.adress-text {
-  font-family: Roboto;
+ .footer .adress-text {
   font-style: normal;
-  font-weight: normal;
   font-size: 14px;
-  line-height: 24px;
+  line-height: 1.70;
   letter-spacing: 0.03em;
 
   color: #ffffff;
@@ -218,12 +195,11 @@ body {
 .footer,
 .tel,
 .mail {
+  font-style: normal;
   color: rgba(255, 255, 255, 0.6);
   text-decoration: none;
-  font-family: Roboto;
-  font-style: normal;
   font-weight: 500;
   font-size: 14px;
-  line-height: 16px;
-  letter-spacing: 0.02em;
+  line-height: 1.14;
+  
 }
