@@ -35,6 +35,21 @@ body {
 
   text-decoration: none;
 }
+.link-studio {
+  text-decoration: none;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+  color: var(--accent);
+}
+
+.link:hover,
+.link:focus {
+  color: var(--accent);
+}
 .page-header .logo {
   font-family: Raleway;
   font-style: normal;
@@ -54,8 +69,7 @@ body {
   color: var(--accent);
   text-decoration: none;
 }
-.nav .link-studio,
-.mail {
+.nav-contacts .mail {
   text-decoration: none;
   font-family: Roboto;
   font-style: normal;
@@ -65,8 +79,7 @@ body {
   letter-spacing: 0.02em;
   color: var(--accent);
 }
-.nav-contacts,
-.tel {
+.nav-contacts .tel {
   color: var(--main-text-color);
   text-decoration: none;
   font-family: Roboto;
